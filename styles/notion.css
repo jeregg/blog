@@ -64,6 +64,18 @@
   line-height: var(--no-leading);
 }
 
+.notion-h1 {
+  margin-bottom: 0.75em;
+}
+
+.notion-h2 {
+  margin-bottom: 0.75em;
+}
+
+.notion-h3 {
+  margin-bottom: 0.75em;
+}
+
 .notion *::selection {
   background: rgba(0, 116, 255, 0.8);
 }
