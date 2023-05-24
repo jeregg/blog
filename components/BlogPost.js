@@ -12,7 +12,7 @@ const BlogPost = ({ post }) => {
           <h2 className="text-lg md:text-xl font-semibold mb-2 cursor-pointer text-grey-800 dark:text-gray-100">
             {post.title}
           </h2>
-          <time className="flex-shrink-0 font-thin text-gray-800 dark:text-gray-400">
+          <time className="flex-shrink-0 font-extralight text-gray-800 dark:text-gray-400">
             <FormattedDate date={post.date} />
           </time>
         </header>
