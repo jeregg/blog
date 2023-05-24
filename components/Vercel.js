@@ -1,4 +1,4 @@
-const Vercel = () => {
+// const Vercel = () => {
   return (
     <a
       href="https://vercel.com?utm_source=Craigary&utm_campaign=oss"
@@ -39,4 +39,4 @@ const Vercel = () => {
   )
 }
 
-export default Vercel
+// export default Vercel
