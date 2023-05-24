@@ -62,6 +62,11 @@
   @apply p-0;
   line-height: var(--no-leading);
 }
+
+.notion *::selection {
+  background: rgba(0, 116, 255, 0.8);
+}
+
 .notion-page-link {
   color: inherit;
 }
