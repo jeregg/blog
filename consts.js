@@ -1,5 +1,5 @@
 exports.FONTS_SANS = [
-  '"proxima-nova"',
+  '"Proxima Nova"',
   '"IBM Plex Sans"',
   'ui-sans-serif',
   'system-ui',
