@@ -15,6 +15,7 @@ export default {
           DEFAULT: config.darkBackground || '#111827'
         },
                 'grey-800': 'rgb(45, 45, 45)',
+                'grey-600': 'rgb(8a, 8a, 8a)',
       },
       fontFamily: {
         sans: FONTS_SANS,
