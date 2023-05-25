@@ -16,7 +16,6 @@ export default {
         },
         'grey-800': '#454545',
       },
-      },
       fontFamily: {
         sans: FONTS_SANS,
         serif: FONTS_SERIF,
