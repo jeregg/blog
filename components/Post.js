@@ -27,8 +27,8 @@ export default function Post (props) {
   return (
     <article className={cn('flex flex-col', fullWidth ? 'md:px-24' : 'items-center')}>
       <h1 className={cn(
-        'w-full font-thin text-3xl text-grey-800 dark:text-white',
-        { 'max-w-5xl px-4': !fullWidth }
+        'w-full font-thin text-5xl text-grey-800 dark:text-white',
+        { 'max-w-3xl px-4': !fullWidth }
       )}>
         {post.title}
       </h1>
