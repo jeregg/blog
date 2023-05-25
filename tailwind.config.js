@@ -7,6 +7,9 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+            underlineOffset: {
+        '8': '8px',
+        '6': '6pd'}
       colors: {
         day: {
           DEFAULT: config.lightBackground || '#ffffff'
