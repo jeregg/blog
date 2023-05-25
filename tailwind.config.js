@@ -9,7 +9,7 @@ export default {
     extend: {
             underlineOffset: {
         '8': '8px',
-        '6': '6pd'}
+        '6': '6pd'},
       colors: {
         day: {
           DEFAULT: config.lightBackground || '#ffffff'
