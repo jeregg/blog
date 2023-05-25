@@ -170,9 +170,9 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG);
 }
 
-::selection {
+/*::selection {
   background: rgba(0, 116, 255, 0.8);
-}
+}*/
 
 .wrapper {
   min-height: 100vh;
