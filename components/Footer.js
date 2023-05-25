@@ -15,7 +15,7 @@ const Footer = ({ fullWidth }) => {
       <hr className="border-gray-100 dark:border-gray-600" />
       <div className="my-4 text-sm text-grey-800 leading-6">
         <div className="flex align-top justify-between flex-wrap">
-          <p className="text-center">
+          <p className="mx-auto">
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </p>
       
