@@ -6,12 +6,14 @@ const BlogPost = ({ post }) => {
   const BLOG = useConfig()
 
   return (
-    <Link href={`${BLOG.path}/${post.slug}`}>
+  
       <article key={post.id} className="mb-6 md:mb-8">
         <header className="flex flex-col justify-between md:flex-row md:items-baseline">
+         <Link href={`${BLOG.path}/${post.slug}`}>
           <h2 className="text-2xl md:text-2xl font-thin mb-2 cursor-pointer text-grey-800 dark:text-gray-100 hover:underline-offset-8">
             {post.title}
           </h2>
+         </Link>
           <time className="flex-shrink-0 text-xs text-gray-800 dark:text-gray-400">
             <FormattedDate date={post.date} />
           </time>
@@ -22,7 +24,6 @@ const BlogPost = ({ post }) => {
           </p>
         </main>
       </article>
-    </Link>
   )
 }
 
