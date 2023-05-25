@@ -27,14 +27,14 @@ export default function Post (props) {
   return (
     <article className={cn('flex flex-col', fullWidth ? 'md:px-24' : 'items-center')}>
       <h1 className={cn(
-        'w-full font-semibold text-3xl text-grey-800 dark:text-white',
-        { 'max-w-3xl px-4': !fullWidth }
+        'w-full font-thin text-3xl text-grey-800 dark:text-white',
+        { 'max-w-5xl px-4': !fullWidth }
       )}>
         {post.title}
       </h1>
       {post.type[0] !== 'Page' && (
         <nav className={cn(
-          'w-full flex mt-3.5 items-start font-extralight text-gray-800 dark:text-gray-400',
+          'w-full flex mt-3.5 items-start text-sm text-gray-800 dark:text-gray-400',
           { 'max-w-3xl px-4': !fullWidth }
         )}>
           {/* <div className="flex mb-4">
