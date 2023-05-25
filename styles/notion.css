@@ -79,7 +79,7 @@
 }
 
 .notion *::selection {
-  background: rgba(0, 116, 255, 0.8);
+  background: unset;
 }
 
 .notion-page-link {
