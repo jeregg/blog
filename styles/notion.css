@@ -54,7 +54,7 @@
   @apply text-gray-800 dark:text-gray-300;
   font: "Proxima Nova";
   font-size: .9375em;
-  font-weight: 200;
+  font-weight:400;
   overflow-wrap: break-word;
 }
 .notion,
