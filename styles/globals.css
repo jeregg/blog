@@ -175,7 +175,7 @@ body::-webkit-scrollbar-thumb {
 }*/
 
 ::selection {
-  background: unset;
+  background: initial;
 }
 
 .wrapper {
