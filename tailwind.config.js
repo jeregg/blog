@@ -13,7 +13,8 @@ export default {
         },
         night: {
           DEFAULT: config.darkBackground || '#111827'
-        }
+        },
+                'grey-800': 'rgb(45, 45, 45)',
       },
       fontFamily: {
         sans: FONTS_SANS,
