@@ -1,17 +1,17 @@
 {
   "NAV": {
-    "INDEX": "Blog",
+    "INDEX": "BLOG",
     "RSS": "RSS",
     "SEARCH": "Search",
-    "ABOUT": "About"
+    "ABOUT": "ABOUT"
   },
   "PAGINATION": {
-    "PREV": "Prev",
-    "NEXT": "Next"
+    "PREV": "PREV",
+    "NEXT": "NEXT"
   },
   "POST": {
-    "BACK": "Back",
-    "TOP": "Top"
+    "BACK": "BACK",
+    "TOP": "TOP"
   },
   "PAGE": {
     "ERROR_404": {
