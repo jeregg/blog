@@ -78,8 +78,8 @@
   margin-bottom: 0.75em;
 }
 
-::selection {
-  background: unset;
+.notion *::selection {
+  background: #B4D5FE;
 }
 
 .notion-page-link {
