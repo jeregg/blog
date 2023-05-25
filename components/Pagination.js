@@ -11,7 +11,7 @@ const Pagination = ({ page, showNext }) => {
   if (currentPage !== 1 && !showNext) additionalClassName = 'justify-start'
   return (
     <div
-      className={`flex text-sm text-grey-200 hover:text-grey-800 transition duration-100 ${additionalClassName}`}
+      className={`flex text-sm text-grey-8 underline-offset-8 hover:underline ${additionalClassName}`}
     >
       {currentPage !== 1 && (
         <Link
