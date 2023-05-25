@@ -1,6 +1,6 @@
 const BLOG = {
   title: '',
-  author: '##',
+  author: '',
   email: '',
   link: 'https://nobelium.vercel.app',
   description: 'A simple blog.',
