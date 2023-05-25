@@ -22,9 +22,9 @@ const NavBar = () => {
             link.show && (
               <li
                 key={link.id}
-                className="block ml-4 text-grey-800 dark:text-gray-50 nav"
+                className="block ml-4 text-grey-800 dark:text-gray-50 nav hover:underline"
               >
-                <Link hover:underline-offset-8 href={link.to} target={link.external ? '_blank' : null}>{link.name}</Link>
+                <Link href={link.to} target={link.external ? '_blank' : null}>{link.name}</Link>
               </li>
             )
         )}
