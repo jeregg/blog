@@ -47,7 +47,7 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}
-            className="mt-2 cursor-pointer text-sm text-grey-200 hover:text-grey-800 transition duration-100 dark:hover:text-gray-100"
+            className="mt-2 cursor-pointer text-sm text-grey-600 hover:text-grey-800 transition duration-100 dark:hover:text-gray-100"
           >
             {locale.POST.BACK}
           </button>
@@ -58,7 +58,7 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
               top: 0,
               behavior: 'smooth'
             })}
-            className="mt-2 cursor-pointer text-sm text-grey-200 hover:text-grey-800 transition duration-100 dark:hover:text-gray-100"
+            className="mt-2 cursor-pointer text-sm text-grey-600 hover:text-grey-800 transition duration-100 dark:hover:text-gray-100"
           >
             {locale.POST.TOP}
           </button>
