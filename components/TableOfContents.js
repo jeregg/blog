@@ -27,14 +27,14 @@ export default function TableOfContents ({ blockMap, className, style }) {
 
   return (
     <aside
-      className={cn(className, 'pl-4 text-sm text-zinc-700/70 dark:text-neutral-400')}
+      className={cn(className, 'pl-4 text-sm text-gray-300 dark:text-neutral-400')}
       style={style}
     >
       {nodes.map(node => (
         <div key={node.id}>
           <a
             data-target-id={node.id}
-            className="block py-1 hover:text-black dark:hover:text-white cursor-pointer transition duration-100"
+            className="block py-1 hover:text-gray-800 dark:hover:text-white cursor-pointer transition duration-100"
             style={{ paddingLeft: (node.indentLevel * 24) + 'px' }}
             onClick={() => scrollTo(node.id)}
           >
