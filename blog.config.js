@@ -1,5 +1,5 @@
 const BLOG = {
-  title: '',
+  title: 'PLSFIX',
   author: '',
   email: '',
   link: 'https://nobelium.vercel.app',
