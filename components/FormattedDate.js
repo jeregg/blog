@@ -25,5 +25,5 @@ export default function FormattedDate ({ date }) {
 
   }, [isLocaleLoaded, lang])
 
-  return <span>{dayjs(date).format('ll')}</span>
+  return <span>{dayjs(date).format('dddd YYYY-MM-DD')}</span>
 }
