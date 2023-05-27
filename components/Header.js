@@ -28,6 +28,8 @@ const NavBar = () => {
               </li>
             )
         )}
+         <hr className="border-gray-800 dark:border-gray-600" />
+
       </ul>
     </div>
   )
