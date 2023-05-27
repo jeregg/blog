@@ -1,7 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/helveticaneue-ultralight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/helveticaneue-thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/helveticaneue-light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/helveticaneue.woff') format('woff');
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/helveticaneue-medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/helveticaneue-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('/fonts/helveticaneue-italic.woff') format('woff');
+}
+
+
+/*@font-face {
   font-family: 'Proxima Nova';
   font-weight: 100;
   font-display: swap;
@@ -112,7 +171,7 @@
   font-style: italic;
   font-named-instance: 'Italic';
   src: url('/fonts/ProximaNova-BlackIt.woff2') format('woff2');
-}
+}*/
 
 
 /* @font-face {
