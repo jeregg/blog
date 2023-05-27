@@ -76,6 +76,8 @@
 
 .notion-h3 {
   margin-bottom: 0em;
+  uppercase;
+  font-extrabold;
 }
 
 .notion *::selection {
