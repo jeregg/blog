@@ -40,14 +40,14 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
       {/* Back and Top */}
       <div
         className={cn(
-          'px-4 flex justify-between font-semibold text-gray-600 dark:text-gray-400 my-5',
+          'px-4 flex justify-between font-semibold text-gray-300 dark:text-gray-400 my-5',
           fullWidth ? 'md:px-24' : 'mx-auto max-w-3xl'
         )}
       >
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}
-            className="mt-2 cursor-pointer text-sm text-gray-600 hover:text-grey-800 transition duration-100 dark:hover:text-gray-100"
+            className="mt-2 cursor-pointer text-sm text-gray-300 hover:text-grey-800 transition duration-100 dark:hover:text-gray-100"
           >
             {locale.POST.BACK}
           </button>
@@ -58,7 +58,7 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
               top: 0,
               behavior: 'smooth'
             })}
-            className="mt-2 cursor-pointer text-sm text-gray-600 hover:text-grey-800 transition duration-100 dark:hover:text-gray-100"
+            className="mt-2 cursor-pointer text-sm text-gray-300 hover:text-grey-800 transition duration-100 dark:hover:text-gray-100"
           >
             {locale.POST.TOP}
           </button>
