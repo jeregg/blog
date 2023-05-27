@@ -30,7 +30,6 @@ const NavBar = () => {
         )}
 
       </ul>
-         <hr className="border-gray-800 dark:border-gray-600" />
 
     </div>
   )
@@ -123,6 +122,8 @@ export default function Header ({ navBarTitle, fullWidth }) {
           />
         </div>
         <NavBar />
+                 <hr className="border-gray-800 dark:border-gray-600" />
+
       </div>
     </>
   )
