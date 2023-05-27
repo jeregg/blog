@@ -1,4 +1,5 @@
 exports.FONTS_SANS = [
+  '"Helvetica Neue"',
   '"Proxima Nova"',
   'ui-sans-serif',
   'system-ui',
