@@ -66,6 +66,10 @@
   line-height: var(--no-leading);
 }
 
+.notion-h {
+  padding: 3px 0px;
+}
+
 .notion-h1 {
   margin-bottom: 0em;
   font-weight: 800;
