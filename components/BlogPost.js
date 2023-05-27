@@ -10,16 +10,16 @@ const BlogPost = ({ post }) => {
     <article key={post.id} className="mb-6 md:mb-8">
       <header className="flex flex-col justify-between md:flex-row">
         <Link href={`${BLOG.path}/${post.slug}`}>
-          <h2 className="text-2xl md:text-1xl font-extralight mb-2 cursor-pointer text-grey-800 dark:text-gray-100 underline-offset-8 hover:underline transition duration-100">
+          <h2 className="text-2xl md:text-1xl font-extrabold uppercase mb-2 cursor-pointer text-grey-800 dark:text-gray-100 underline-offset-8 hover:underline transition duration-100">
             {post.title}
           </h2>
         </Link>
-          <time className="flex-shrink-0 text-sm text-gray-800 dark:text-gray-400">
+          <time className="flex-shrink-0 text-sm uppercase text-gray-800 dark:text-gray-400">
             <FormattedDate date={post.date} />
           </time>
       </header>
         <main>
-          <p className="hidden md:block text-sm font-extralight leading-6 text-gray-800 dark:text-gray-300">
+          <p className="hidden md:block text-sm leading-6 text-gray-800 dark:text-gray-300">
             {post.summary}
           </p>
         </main>
