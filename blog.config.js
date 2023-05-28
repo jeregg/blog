@@ -2,8 +2,8 @@ const BLOG = {
   title: 'Plsfix',
   author: '',
   email: '',
-  link: 'https://nobelium.vercel.app',
-  description: 'A simple blog.',
+  link: 'https://plsfix.cn',
+  description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'light', // ['light', 'dark', 'auto'],
@@ -17,10 +17,10 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: true, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  ogImageGenerateURL: '', // The link to generate OG image, don't end with a slash
+  socialLink: '',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
