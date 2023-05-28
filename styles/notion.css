@@ -223,12 +223,12 @@ pre[class*='language-'] {
   padding-inline-start: 28px;
   padding-top: 0px;
   padding-bottom: 0px;
-  @apply my-1;
 }
 
 .notion-list > li {
   padding-left: 2px;
   padding-right: 2px;
+  line-height: 1.2rem;
 }
 
 /* Every block */
