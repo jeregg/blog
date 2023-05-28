@@ -93,7 +93,7 @@
   background: #B4D5FE;
 }
 
-.notion-hash-link {
+.notion-hash-link:disabled {
   opacity: 0;
   text-decoration: none;
   float: left;
