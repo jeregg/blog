@@ -1,4 +1,5 @@
 exports.FONTS_SANS = [
+  '"Inter var"',
   '"Helvetica Neue"',
   '"Proxima Nova"',
   'ui-sans-serif',
