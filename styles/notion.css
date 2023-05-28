@@ -93,13 +93,15 @@
   background: #B4D5FE;
 }
 
-.notion-hash-link:disabled {
+.notion-hash-link {
   opacity: 0;
   text-decoration: none;
   float: left;
   margin-left: -20px;
   padding-right: 4px;
   fill: none;
+  height: 0px;
+  width: 0px;
 }
 
 .notion-page-link {
